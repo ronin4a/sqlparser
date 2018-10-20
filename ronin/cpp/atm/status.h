@@ -1,0 +1,15 @@
+class Status {
+  public:
+    enum Code {
+      SUCCESS,
+      TOO_LITTLE_CASH,
+      ENVELOPE_DEPOSIT_TIMED_OUT,
+      UNKNOWN_CARD,
+      INVALID_PIN,
+      NO_ACCT,
+      CANT_WITHDRAW_FROM_ACCOUNT,
+      INSUFFICIENT_BALANCE,
+      DAILY_WITHDRAWAL_LIMIT_EXCEEDED
+    };
+
+};
